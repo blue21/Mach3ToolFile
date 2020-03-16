@@ -8,9 +8,9 @@ https://www.cnczone.com/forums/mach-software-artsoft-software-/142166-mach3-tool
 
 Thanks to the OP for posting it.
 
-The file starts with 255 tool records (#0-254).
-Each record is variable length. 
-The end of the file is padded with 255 bytes of 0x01
+- The file starts with 255 tool records (#0-254).
+- Each record is variable length. 
+- The end of the file is padded with 255 bytes of 0x01
 
 Tool record file format:
 - first byte is length of name (N)
