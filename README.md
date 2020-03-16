@@ -4,6 +4,7 @@ Mach3 tools file format class for python
 ## Mach3 tools file format
 From:
 https://www.cnczone.com/forums/mach-software-artsoft-software-/142166-mach3-tools3-dat-tool-table-binary-file.html
+Thanks to the OP for posting it.
 
 The file starts with 255 tool records (#0-254).
 Each record is variable length. 
